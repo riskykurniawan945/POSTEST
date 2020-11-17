@@ -3,7 +3,7 @@
 # Bisa diakali dengan print(9)
 
 
-angka = int(input("Ingin Menghitung berapa kali =    "))
+angka = int(input("Masukkan Angka =    "))
 
 for i in range(angka):
     if ((i+1) % 9 == 0):
