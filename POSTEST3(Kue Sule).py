@@ -1,4 +1,3 @@
-beli = 0
 jumlahKueKeju = 25
 jumlahKueCoklat = 35
 kueKeju = 6000
