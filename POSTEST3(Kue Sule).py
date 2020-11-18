@@ -82,6 +82,7 @@ while (kueKejuAda or kueCoklatAda):
         print("Kue Keju yang tersisa tinggal = ", jumlahKueKeju)
     elif (kueKejuAda and jumlahKueKeju < 0):
         print("Maaf, Kue Keju Kami tidak cukup, Kami kekurangan {} Kue Keju, kami hanya menjual sebanyak {} buah". format(-jumlahKueKeju, tempKueKeju))
+        print("Kue Keju Habis!")
         kueKejuAda = False
         
     tempKueCoklat = jumlahKueCoklat
@@ -93,6 +94,7 @@ while (kueKejuAda or kueCoklatAda):
         print("Kue Coklat yang tersisa tinggal = ", jumlahKueCoklat)
     elif (kueCoklatAda and jumlahKueCoklat < 0):
         print("Maaf, Kue Coklat Kami tidak cukup, Kami kekurangan {} Kue Coklat, kami hanya menjual sebanyak {} buah" .format(-jumlahKueCoklat, tempKueCoklat))
+        print("Kue Coklat Habis!")
         kueCoklatAda = False
 
 
